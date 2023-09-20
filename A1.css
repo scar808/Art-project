@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;800&family=Rubik:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d2de32;
+}
+.logo{
+    max-width: 100px;
+}
+#navlist{
+    display: flex;
+    gap: 50px;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+
+#sect{
+    margin: 15px;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
